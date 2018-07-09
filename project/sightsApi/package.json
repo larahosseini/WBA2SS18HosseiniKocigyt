@@ -1,0 +1,27 @@
+{
+  "name": "sightsapi",
+  "version": "1.0.0",
+  "description": "Sights API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "service"
+  ],
+  "author": "Lara Hosseini",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
+}

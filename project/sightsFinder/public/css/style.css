@@ -1,0 +1,25 @@
+/*
+	style.css:
+	define custom css styles
+*/
+
+html, body, article {
+	height: 100%;
+	margin: 10px;
+	padding: 0px;
+}
+
+#map {
+	height: 800px;
+}
+
+#sightsList button {
+	float: left;
+	font-size: 20px;
+}
+
+#sightsList p {
+	float: right;
+	line-height: 44px;
+    margin: 0px;
+}

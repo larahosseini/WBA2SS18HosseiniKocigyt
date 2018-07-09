@@ -1,0 +1,29 @@
+{
+  "name": "sightsfinder",
+  "version": "1.0.0",
+  "description": "Sights Finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "google maps"
+  ],
+  "author": "Lara Hosseini",
+  "license": "MIT",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "google-distance-matrix": "^1.1.1",
+    "jade": "^1.11.0",
+    "request": "^2.87.0",
+    "socket.io": "^2.1.1"
+  }
+}
